@@ -1,0 +1,152 @@
+#head {
+  
+  size: 150%;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(35, 35, 35);
+  color: white;
+   font-size: 50px;
+  font-weight: bold;
+
+}
+
+#subtitle{
+  position: relative;
+  font-size: 150%;
+  color: white;
+  background-color: rgb(35, 35, 35);
+  bottom: 53px;
+ 
+ 
+}
+
+#us-map{
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+path:hover, circle:hover {
+  stroke: #fbff00;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  //fill: #002868 ;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+.legend{
+  position: absolute;
+ 	left: 1000px;
+	top: 280px;
+  width: 300px;
+  font-weight:bold;
+  border: 2px solid #000000;
+  
+}
+#r{
+  color:red;
+
+}
+#d{
+  color:blue;
+ 
+  
+}
+
+body {
+  background-color:rgb(220,220,220);
+  font-family: 'Calibri', 'Trebuchet MS', sans-serif
+}
+
+#mapt {
+  color: black;
+  font-size: 300%;
+  
+  margin-left: 15px;
+}
+#mapt2016 {
+  color:black;
+  font-size: 300%;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+#firstl {
+
+font-size: 200%;
+bottom: 600px;
+}
+
+#biden {
+
+  font-size: 75%;
+  color: blue;
+left: 480px;
+width: 800px;
+bottom: 53px;
+margin-left: 15px;
+}
+
+#trump {
+
+  font-size: 75%;
+  color: red;
+  width: 500px;
+  bottom: 53px;
+  left: 790px;
+  margin-left: 15px;
+}
+
+#trump2 {
+
+  font-size: 150%;
+  color: red;
+  width: 500px;
+  bottom: 53px;
+  left: 790px;
+  margin-left: 15px;
+}
+
+#clinton {
+
+  font-size: 150%;
+  color: blue;
+left: 480px;
+width: 800px;
+bottom: 53px;
+margin-left: 15px;
+}
+
+#us-map2016{
+
+   display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 8px;
+  font-size: 30px;
+}
